@@ -1,0 +1,96 @@
+html {
+	font-family: Helvetica;
+	background-color: rgb(79, 165, 165); 
+
+}
+body  {
+	background-image: url(../images/bgrepeat.jpg);
+	background-repeat: repeat;
+	background-attachment: fixed;
+	margin: 0;
+}
+
+h1{
+    font-size: 90px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+p{
+	font-size: 20px;
+}
+
+.wrapper { 
+	width: 85%;
+	margin: auto;
+	border-left: 8px solid rgb(237, 173, 13);
+	border-right: 8px solid rgb(237, 173, 13);
+	background:lightcyan;
+}
+
+.header { 
+	height:300px;
+	background-image: url(../images/backgroundimage.png);
+} 
+
+.header h1 {
+	padding: 90px;
+	color: whitesmoke;
+	text-align: center; 
+}
+
+.nav {
+	background-color: lightseagreen;
+	height: 60px;
+}
+
+.nav ul {
+	margin: 0%;
+}
+
+.nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 20px 25px 0 0;
+}
+
+.nav ul li a {
+	color: rgb(249, 249, 128);
+	text-decoration:lightsteelblue;
+	font-size: 24px;
+}
+
+.main1, .main2 {
+	padding: 15px;
+}
+
+.main1 {
+	background-color:rgb(117, 233, 212);
+}
+
+.main1 h2{
+	color: whitesmoke;
+	height: 60px;
+	text-align: center; 
+}
+
+.main2 {
+	background-color:lavender;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+.footer {
+	color: midnightblue; 
+	text-align: center;
+	height: 30px;
+	padding: 30px;
+	background-color: rgb(79, 165, 165);
+	font-size: 20px;
+}
